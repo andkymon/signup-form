@@ -12,6 +12,7 @@
   font-family: open-sans-italic;
   src: url("assets/opensansitalic.woff2") format('woff2');
 }
+
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -112,7 +113,6 @@ body {
 
 .right-container-top {
   font-size: 1.5rem;
-  font-weight: 600;
   padding: var(--right-section-padding);
 }
 
@@ -145,6 +145,3 @@ body {
   cursor: pointer;
 }
 
-[type="submit"]:active {
-  padding: 0.25em 1em;
-}
