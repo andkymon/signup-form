@@ -88,4 +88,8 @@ body {
 
 .right-container {
     flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
