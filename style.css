@@ -52,18 +52,19 @@ h1, h2, h3, h4, h5, h6 {
     height: 15%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .left-container header img {
-    height: 100%;
-    padding: 5% 0;
+    height: 64px;
+    padding: 5px;
 }
 
 .left-container header span {
-    font-size: 4rem;
-    font-family: logo;
-    display: flex;
-    align-items: center;
+    font-family: logo, sans-serif;  
+    font-size: 48px;
 }
 
 .left-container footer {
@@ -73,6 +74,8 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
 }
 
 .left-container footer a {
