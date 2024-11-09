@@ -91,5 +91,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: azure;
+}
+
+.right-container-middle {
+    height: 33%;
+    background-color: white;
+    box-shadow: 3px 0px 10px lightgray;
 }
 
