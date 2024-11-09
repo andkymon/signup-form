@@ -16,6 +16,9 @@
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
+:root {
+  --right-section-padding: 64px;
+}
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -109,15 +112,16 @@ body {
 .right-container-top {
   font-size: 1.5rem;
   font-weight: 600;
-  padding: 1rem;
+  padding: var(--right-section-padding);
 }
 
 .right-container-middle {
-  height: 33%;
+  height: 25%;
 }
 
 .right-container-bottom {
   font-size: 1.25rem;
+  padding: var(--right-section-padding);
 }
 
 .right-container-bottom a {
