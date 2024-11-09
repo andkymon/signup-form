@@ -131,4 +131,20 @@ body {
 
 [type="submit"] {
   background-color: var(--bg-color);
+  color: white;
+  border: none;
+  margin: 24px 0;
+  padding: 0.5em 2em;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+[type="submit"]:hover {
+  background-color: white;
+  color: var(--bg-color);
+  cursor: pointer;
+}
+
+[type="submit"]:active {
+  padding: 0.25em 1em;
 }
