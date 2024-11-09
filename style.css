@@ -18,6 +18,7 @@
 */
 :root {
   --right-section-padding: 64px;
+  --bg-color: rgb(160, 180, 160);
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -125,5 +126,9 @@ body {
 }
 
 .right-container-bottom a {
-  color: rgb(160, 180, 160);
+  color: var(--bg-color);
+}
+
+[type="submit"] {
+  background-color: var(--bg-color);
 }
