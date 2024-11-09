@@ -2,6 +2,16 @@
     font-family: logo;
     src: url("assets/logo.woff2") format('woff2');
 }
+
+@font-face {
+  font-family: open-sans;
+  src: url("assets/opensans.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: open-sans-italic;
+  src: url("assets/opensansitalic.woff2") format('woff2');
+}
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -83,7 +93,7 @@ body {
 }
 
 .left-container footer a {
-    color: white;
+    color: rgb(10, 10, 10);
 }
 
 .right-container {
@@ -91,12 +101,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: azure;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .right-container-middle {
     height: 33%;
-    background-color: white;
-    box-shadow: 3px 0px 10px lightgray;
 }
 
