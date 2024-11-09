@@ -93,7 +93,7 @@ body {
 }
 
 .left-container footer a {
-  color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
 }
 
 .right-container {
@@ -109,6 +109,7 @@ body {
 .right-container-top {
   font-size: 1.5rem;
   font-weight: 600;
+  padding: 1rem;
 }
 
 .right-container-middle {
