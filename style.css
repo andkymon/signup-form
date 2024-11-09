@@ -34,11 +34,15 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
 
+body {
+    display: flex;
+}
+
 .left-container {
     background-image: url("assets/bg.jpg");
     background-size: cover;
     color: white;
-    width: 40%;
+    flex: 4;
     height: 100vh;
     position: relative;
 }
@@ -80,4 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .left-container footer a {
     color: white;
+}
+
+.right-container {
+    flex: 6;
 }
