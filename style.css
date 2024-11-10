@@ -20,6 +20,7 @@
 :root {
   --right-section-padding: 32px 64px;
   --bg-color: rgb(160, 180, 160);
+  height: 100%;
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -52,6 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
+  min-height: fit-content;
 }
 
 .left-container {
@@ -59,9 +62,9 @@ body {
   background-size: cover;
   color: white;
   flex: 4;
-  height: 100vh;
+  min-height: 100%;
   position: relative;
-  min-width: 350px;
+  min-width: 250px;
 }
 
 .left-container header {
@@ -111,7 +114,6 @@ body {
   background-color: black;
   color: white;
   font-family: open-sans, sans-serif;
-  min-width: 400px;
 }
 
 .right-container-top {
