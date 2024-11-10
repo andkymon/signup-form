@@ -168,6 +168,16 @@ body {
 .form-section {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+#signup input:enabled {
+  border-radius: 4px;
+  border: 0;
+}
+
+#signup input:focus {
+  box-shadow: 0px 0px 4px 2px var(--bg-color);
 }
 
 
