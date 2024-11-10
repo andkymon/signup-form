@@ -213,10 +213,6 @@ body {
   color: white ;
 }
 
-[type="tel"]:invalid + .tel-requirement::after{
-  color: rgb(255, 0, 0) ;
-}
-
 [type="tel"]:valid + .tel-requirement::after{
   content: "";
 }
