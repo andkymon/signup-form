@@ -20,6 +20,7 @@
 :root {
   --right-section-padding: 32px 64px;
   --bg-color: rgb(160, 180, 160);
+  --glow: 0px 0px 4px 4px;
   height: 100%;
 }
 *, *::before, *::after {
@@ -177,16 +178,15 @@ body {
 }
 
 #signup input:focus {
-  box-shadow: 0px 0px 4px 2px var(--bg-color);
+  box-shadow: var(--glow) var(--bg-color);
 }
 
 #signup input:focus:invalid {
-  box-shadow: 0px 0px 4px 2px red;
   outline-color: red;
 }
 
 #signup input:invalid {
-  box-shadow: 0px 0px 4px 2px red;
+  box-shadow: var(--glow) red;
   background-color: rgb(255, 180, 180);
 }
 
@@ -196,7 +196,7 @@ body {
 }
 
 #signup input:placeholder-shown:focus {
-  box-shadow: 0px 0px 4px 2px var(--bg-color);
+  box-shadow: var(--glow) var(--bg-color);
   outline-color: black;
 }
 
