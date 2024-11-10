@@ -18,7 +18,7 @@
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 :root {
-  --right-section-padding: 64px;
+  --right-section-padding: 32px 64px;
   --bg-color: rgb(160, 180, 160);
 }
 *, *::before, *::after {
@@ -119,6 +119,12 @@ body {
 .right-container-middle {
   height: 25%;
   padding: var(--right-section-padding);
+  background-color: aqua;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
 }
 
 .right-container-bottom {
