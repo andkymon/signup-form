@@ -203,20 +203,46 @@ body {
 [type="tel"]:focus + span::after{
   color: white ;
   content: "Requires a \"+\" at the beginning, followed by 10-15 digits.";
-  font-size: 0.8rem;
-  padding: 4px 0;
+  font-size: 0.7rem;
+  padding: 8px 0 0;
   line-height: 1.2;
   display: inline-block;
 }
 
-[type="tel"]:placeholder-shown:focus + span::after{
+[type="tel"]:placeholder-shown:focus + .tel-requirement::after{
   color: white ;
 }
 
-[type="tel"]:invalid + span::after{
+[type="tel"]:invalid + .tel-requirement::after{
   color: rgb(255, 0, 0) ;
 }
 
-[type="tel"]:valid + span::after{
+[type="tel"]:valid + .tel-requirement::after{
   content: "";
+}
+
+[type="password"]:focus ~ span {
+  height: fit-content;
+  line-height: 1;
+}
+
+[type="password"]:focus ~ .password-requirement::after{
+  color: white ;
+  font-size: 0.7rem;
+  padding: 4px 0 0;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+[type="password"]:focus + .password-requirement.length::after{
+  padding: 8px 0 0;
+  content: "Must be at least 8 characters."
+}
+
+[type="password"]:focus ~ .password-requirement.number::after{
+  content: "Must contain at least one number."
+}
+
+[type="password"]:focus ~ .password-requirement.special::after{
+  content: "Must contain at least one special character."
 }
