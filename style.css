@@ -149,3 +149,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+}
