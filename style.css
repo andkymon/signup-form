@@ -190,4 +190,8 @@ body {
   background-color: rgb(255, 180, 180);
 }
 
-
+#signup input:placeholder-shown {
+  background-color: white;
+  box-shadow: none;
+  outline: none;
+}
