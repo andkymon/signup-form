@@ -145,3 +145,7 @@ body {
   cursor: pointer;
 }
 
+.input {
+  display: flex;
+  flex-direction: column;
+}
