@@ -199,3 +199,24 @@ body {
   box-shadow: 0px 0px 4px 2px var(--bg-color);
   outline-color: black;
 }
+
+[type="tel"]:focus + span::after{
+  color: white ;
+  content: "Requires a \"+\" at the beginning, followed by 10-15 digits.";
+  font-size: 0.8rem;
+  padding: 4px 0;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+[type="tel"]:placeholder-shown:focus + span::after{
+  color: white ;
+}
+
+[type="tel"]:invalid + span::after{
+  color: rgb(255, 0, 0) ;
+}
+
+[type="tel"]:valid + span::after{
+  content: "";
+}
