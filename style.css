@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .left-container {
@@ -60,6 +61,7 @@ body {
   flex: 4;
   height: 100vh;
   position: relative;
+  min-width: 350px;
 }
 
 .left-container header {
@@ -109,6 +111,7 @@ body {
   background-color: black;
   color: white;
   font-family: open-sans, sans-serif;
+  min-width: 400px;
 }
 
 .right-container-top {
