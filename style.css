@@ -118,6 +118,7 @@ body {
 
 .right-container-middle {
   height: 25%;
+  padding: var(--right-section-padding);
 }
 
 .right-container-bottom {
@@ -148,6 +149,7 @@ body {
 .input {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .form-section {
